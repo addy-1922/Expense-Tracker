@@ -1,88 +1,120 @@
-# Expense Tracker
+# 💰 Expense Tracker
 
-A web application built with Python and Django that helps users track, manage, and organize their personal expenses.
+An **Expense Tracker** built with **Python** and **Django** that helps users efficiently manage their daily finances. The application allows users to record income and expenses, organize transactions into categories, monitor spending, and gain insights into their financial activity through a clean and user-friendly interface.
 
-## Features
+---
 
-- 🔐 **User Authentication** — Sign up, log in, and manage personal accounts
-- 💰 **Expense Tracking** — Add, edit, and delete expense entries
-- 📊 **Expense Overview** — View spending history in an organized format
-- 🖼️ **Media Handling** — Support for uploaded images (e.g., receipts)
-- 💻 **Admin Panel** — Manage users and records via Django admin
+## 🚀 Features
 
-## Tech Stack
+* User registration and authentication
+* Add income and expense records
+* Categorize transactions
+* View transaction history
+* Edit and delete transactions
+* Track total income and expenses
+* Monitor current balance
+* Responsive user interface
+* Django Admin Panel for data management
 
-- **Backend:** Python, Django
-- **Database:** SQLite
-- **Frontend:** HTML, CSS
-- **Deployment:** Render
+---
 
-## Project Structure
+## 🛠️ Tech Stack
 
-```
-mysite/
+### Backend
+
+* Python
+* Django
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
+
+### Database
+
+* SQLite
+
+### Tools
+
+* Git
+* GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+expense-tracker/
+├── expense_tracker/
+├── templates/
+├── static/
+├── media/
 ├── manage.py
-├── mysite/          # Project settings, URLs, WSGI/ASGI config
-└── myapp/           # Core expense tracking logic
+├── db.sqlite3
+└── requirements.txt
 ```
 
-## Getting Started
+---
 
-### Prerequisites
-- Python 3.x
-- pip
+## ⚙️ Installation
 
-### Installation
+### Clone the repository
 
-1. Clone the repository
 ```bash
-git clone https://github.com/addy-1922/Expense-Tracker.git
-cd Expense-Tracker/mysite
+git clone https://github.com/addy-1922/expense-tracker.git
+cd expense-tracker
 ```
 
-2. Create and activate a virtual environment
+### Create a virtual environment
+
 ```bash
-python -m venv env
-source env/Scripts/activate   # On Windows (Git Bash)
+python -m venv venv
 ```
 
-3. Install dependencies
+### Activate the virtual environment
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux/macOS**
+
+```bash
+source venv/bin/activate
+```
+
+### Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run migrations
+### Apply migrations
+
 ```bash
 python manage.py migrate
 ```
 
-5. Start the development server
+### Run the development server
+
 ```bash
 python manage.py runserver
 ```
 
-6. Visit `http://127.0.0.1:8000/` in your browser
+Open the application in your browser:
 
-## Live Demo
+```text
+http://127.0.0.1:8000/
+```
 
-🔗 [Live Site](#) *(add your Render deployment link here)*
+---
 
-## Screenshots
-
-*(Add screenshots of your dashboard, add-expense form, and summary view here)*
-
-## Future Improvements
-
-- Monthly/yearly spending charts and analytics
-- Category-wise expense filtering
-- Budget limits and alerts
-- Export expenses to CSV/PDF
-
-## Author
+## 👨‍💻 Author
 
 **Aditya Naik**
-- GitHub: [@addy-1922](https://github.com/addy-1922)
 
-## License
-
-This project is open source and available for learning purposes.
+GitHub: https://github.com/addy-1922
